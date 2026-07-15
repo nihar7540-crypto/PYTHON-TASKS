@@ -22,9 +22,12 @@ for i in range(5):
         if a>b:
             print("a is greatest")
         else:
-            print("b is greatest")  
-    else:
-        print("all are equal")                  
+            print("b is greatest") 
+    elif a==b:
+            print("a and b are equal")  
+        
+else:
+    print("all are equal")                  
 ############################################################
 for i in range(5):
     year=int(input("enter year to check: "))
@@ -47,6 +50,23 @@ if a=="admin":
         print("invalid password") 
 else :
     print("invalid user name")           
-############################################################
-############################################################
-############################################################
+###########################################################
+a=int(input("enter a number: "))
+if a%2==0:
+    if a%4==0:
+        print("its an even number and divisible by 4")
+    elif a%4!=0:
+        print("number is even but not divisible by 4")
+else :
+    print("not an even no")            
+###########################################################
+a=int(input("enter temperature in celcius"))
+if a>=40:
+    print("very hot")
+elif a>=30 and a<40:
+    print("hot")
+elif a>=20 and a<30:
+    print("normal")
+else:
+    print("cold")
+###########################################################
