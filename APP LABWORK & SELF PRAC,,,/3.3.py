@@ -1,6 +1,4 @@
-from _typeshed import importlib
-from _typeshed import importlib
-from _typeshed import importlib
+
 while True:
     num=int(input("enter number: "))
     if num==0:
@@ -43,5 +41,5 @@ for i in range (1,50+1):
     elif i%2==0 and i%3!=0:
         print(i,"divisible by 2 only")
     else:
-        print(i,"divisible by neither 2 nor 3")
+        print(i,"divisible by both 2 and 3")
         
