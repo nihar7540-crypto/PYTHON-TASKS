@@ -11,7 +11,7 @@ for i in range(5):
     b=int(input("enter secont number:"))
     c=int(input("enter third number :"))
     if a>b:
-        if a>c:
+        if a>c: 
             print("a is greatest")
         else:
             print("c is greatest")
