@@ -3,7 +3,7 @@ s=int(input("enter array size: "))
 print("enter array elements:")
 for i in range(s):
     i=int(input(f"a[{i}]="))
-    items.append(s)
+    items.append(i)
 lenn=0
 for i in items:
     lenn+=1
@@ -24,6 +24,25 @@ lenn=0
 for i in items:
     lenn+=1
 print("average is ", summ/lenn) 
+
+#################################################################
+
+items=[]
+items2=[]
+finalarr=[]
+s=int(input("enter array size: "))
+print("enter array 1 elements:")
+for i in range(s):
+    v=int(input(f"a[{i}]="))  
+    items.append(v) 
+print("enter array 2 elements:")
+for j in range(s):
+    z=int(input(f"a[{j}]="))  
+    items2.append(z) 
+for i in range(s):
+    add = items[i] + items2[i]
+    finalarr.append(add) 
+print(finalarr)
 
 #################################################################
 
